@@ -1,5 +1,5 @@
 # PSTO: Learning Energy-Efficient Locomotion for Quadruped Robots
-This project is based on pybullet-gym: https://github.com/benelot/pybullet-gym.
+This project is based on pybullet-gym: https://github.com/benelot/pybullet-gym and Tianshou https://github.com/thu-ml/tianshou.
 
 You should first download the pybullet-gym environment and put the learning codes into the pybullet-gym folder.
 
