@@ -33,8 +33,8 @@ def get_args():
 
     parser.add_argument('--policy-noise', type=float, default=0.2)
     parser.add_argument('--exploration-noise', type=float, default=0.1)
-    parser.add_argument('--epoch', type=int, default=1)
-    parser.add_argument('--step-per-epoch', type=int, default=200)
+    parser.add_argument('--epoch', type=int, default=2500)
+    parser.add_argument('--step-per-epoch', type=int, default=100)
     parser.add_argument('--layer-num', type=int, default=3)
     
 
