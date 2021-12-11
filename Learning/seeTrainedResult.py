@@ -118,12 +118,7 @@ def train(args=get_args()):
     #     reward_normalization=True, ignore_done=True)
 
     # log
-    log_path = os.path.join(args.logdir, args.task, 'td3_td3_turnTestStillpower0.05_3')  #td3_27observation 2000 td3_td3_turnTest  td3_td3_turnTestStillpower0.05
-    # log_path = os.path.join(args.logdir, args.task, 'td3_td3_turnTestStillpower0.05_2') # good spin
-    # log_path = os.path.join(args.logdir, args.task, 'td3_27observation')  # reward 2000
-    # log_path = os.path.join(args.logdir, args.task, 'td3_26obs/td3_26obs_4')  #it has 27observations...
-    # log_path = os.path.join(args.logdir, args.task, 'td3_16observation_cs285Ant2')  # 1417
-    # log_path = os.path.join(args.logdir, args.task, 'td3_22obs1')  #1000 it has 16observations...
+    log_path = os.path.join(args.logdir, args.task, 'td3_285_ant_motorCost-1.0')  
 
 
     writer = SummaryWriter(log_path)
