@@ -1,4 +1,4 @@
-* powerAndLength_0.6L.csv and powerAndLength_1L.csv is the data of power consumption vs walking length for two different leg lengthes.
+* powerAndLength_0.6L.csv and powerAndLength_1L.csv are the data of power consumption vs walking length for two different leg lengths.
 
 * trajectory.csv record the average trajectory from simulation.
 
